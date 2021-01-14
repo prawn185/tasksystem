@@ -2,3 +2,7 @@ name: Shaun
 super: true
 id: cd6e0113-0581-463d-9841-5e46ed105875
 password_hash: $2y$10$klylw8AYekFwhvGwyrOR9Owsj.XGL4NG7Q20q/ke1pGo/KvI9c2ee
+preferences:
+  collections:
+    pages:
+      after_save: continue_editing

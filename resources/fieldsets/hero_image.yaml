@@ -1,0 +1,20 @@
+title: 'Hero image'
+fields:
+  -
+    handle: title
+    field:
+      antlers: false
+      display: Title
+      type: textarea
+      icon: textarea
+      listable: hidden
+  -
+    handle: hero_image
+    field:
+      mode: grid
+      restrict: false
+      allow_uploads: true
+      display: 'Hero Image'
+      type: assets
+      icon: assets
+      listable: hidden

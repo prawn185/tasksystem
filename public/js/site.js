@@ -115,8 +115,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/shaun/Dev/statamic/resources/js/site.js */"./resources/js/site.js");
-module.exports = __webpack_require__(/*! /home/shaun/Dev/statamic/resources/css/tailwind.css */"./resources/css/tailwind.css");
+__webpack_require__(/*! /home/shaun/Dev/newpos/resources/js/site.js */"./resources/js/site.js");
+module.exports = __webpack_require__(/*! /home/shaun/Dev/newpos/resources/css/tailwind.css */"./resources/css/tailwind.css");
 
 
 /***/ })

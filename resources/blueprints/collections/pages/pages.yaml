@@ -50,8 +50,8 @@ sections:
           max_items: 1
           listable: false
           localizable: true
-  new_section:
-    display: 'New Section'
+  page_builder:
+    display: 'Page Builder'
     fields:
       -
-        import: test
+        import: page_builder
