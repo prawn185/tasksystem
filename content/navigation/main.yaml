@@ -1,0 +1,9 @@
+title: Main
+collections:
+  - pages
+max_depth: 2
+tree:
+  -
+    entry: home
+  -
+    entry: 094b9710-fecb-4541-bbd1-2456095c79f1

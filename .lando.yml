@@ -1,0 +1,4 @@
+name: statmic
+recipe: laravel
+config:
+  webroot: public
