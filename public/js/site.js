@@ -122,20 +122,3 @@ module.exports = __webpack_require__(/*! /home/shaun/Dev/newpos/resources/css/ta
 /***/ })
 
 /******/ });
-
-
-(function(document) {
-    var o = $EndTimestamp,
-        e = $StartTimestamp,
-        s = setInterval(function() {
-            e += 1000;
-            var t = o - e,
-                n = Math.floor(t / 864e5),
-                a = Math.floor(t % 864e5 / 36e5),
-                r = Math.floor(t % 36e5 / 6e4),
-                l = Math.floor(t % 6e4 / 1e3);
-
-            o > e && (document.getElementById("promo--counter").innerHTML = 'in ' + (n ? n + " days " : " ") + (a ? a + " hours " : " ") + (r ? r + " minutes " : " ") + l + " seconds"), t < 0 && clearInterval(s)
-        }, 1e3);
-
-})(document)

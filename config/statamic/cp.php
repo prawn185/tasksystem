@@ -13,7 +13,7 @@ return [
 
     'enabled' => env('CP_ENABLED', true),
 
-    'route' => env('CP_ROUTE', 'cp'),
+    'route' => env('CP_ROUTE', 'admin'),
 
     /*
     |--------------------------------------------------------------------------
@@ -39,6 +39,10 @@ return [
 
     'widgets' => [
         'getting_started',
+        [
+            'type' => 'updater',
+            'width' => '100',
+        ],
     ],
 
     /*

@@ -16,6 +16,7 @@ module.exports = {
             //     DEFAULT: "#0b2b48",
             //     dark: "#020810",
             // },
+            navydark: "#07111f",
             grey: {
                 light: "#f5f5f5",
                 DEFAULT: "#999999",
