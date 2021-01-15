@@ -1,36 +1,35 @@
+
 module.exports = {
     purge: {
-      content: [
-        './resources/**/*.antlers.html',
-        './resources/**/*.blade.php',
-        './content/**/*.md'
-      ]
+        content: [
+            './resources/**/*.antlers.html',
+            './resources/**/*.blade.php',
+            './content/**/*.md'
+        ]
     },
     important: true,
-    purge: false,
     theme: {
         colors: {
-            transparent: 'transparent',
-            current: 'currentColor',
-            blue: {
-                light: '#85d7ff',
-                DEFAULT: '#1fb6ff',
-                dark: '#009eeb',
+            brand: "#00b5fa",
+            secondary: "#0b2b48",
+            //     light: "#334f74",
+            //     DEFAULT: "#0b2b48",
+            //     dark: "#020810",
+            // },
+            grey: {
+                light: "#f5f5f5",
+                DEFAULT: "#999999",
+                dark: "#555555",
             },
-            pink: {
-                light: '#ff7ce5',
-                DEFAULT: '#ff49db',
-                dark: '#ff16d1',
-            },
-            gray: {
-                darkest: '#1f2d3d',
-                dark: '#3c4858',
-                DEFAULT: '#c0ccda',
-                light: '#e0e6ed',
-                lightest: '#f9fafc',
-            }
+            green: "#33b55f",
+            sea: "#3b87a4",
+        },
+        fontFamily: {
+            'primary': ['Open Sans ','Helvetica','Arial','sans-serif'],
         }
     },
     variants: {},
     plugins: [],
 }
+
+//Open Sans,Helvetica,Arial,sans-serif

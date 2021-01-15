@@ -1,14 +1,6 @@
 title: 'Hero image'
 fields:
   -
-    handle: title
-    field:
-      antlers: false
-      display: Title
-      type: textarea
-      icon: textarea
-      listable: hidden
-  -
     handle: hero_image
     field:
       mode: grid
@@ -17,4 +9,37 @@ fields:
       display: 'Hero Image'
       type: assets
       icon: assets
+      listable: hidden
+      localizable: true
+  -
+    handle: content
+    field:
+      always_show_set_button: false
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
+        - anchor
+        - image
+        - table
+        - h1
+        - underline
+        - strikethrough
+        - code
+      save_html: false
+      toolbar_mode: fixed
+      link_noopener: false
+      link_noreferrer: false
+      target_blank: false
+      reading_time: false
+      fullscreen: true
+      allow_source: true
+      display: Content
+      type: bard
+      icon: bard
       listable: hidden

@@ -1,12 +1,19 @@
 title: Pages
+sites:
+  - default
+  - mx
 revisions: false
 route: '{parent_uri}/{slug}'
 structure:
   root: true
   tree:
-    -
-      entry: home
-    -
-      entry: 094b9710-fecb-4541-bbd1-2456095c79f1
-    -
-      entry: 576aed14-b9ec-44bc-8b57-73c4e70655d2
+    default:
+      -
+        entry: home
+      -
+        entry: 094b9710-fecb-4541-bbd1-2456095c79f1
+      -
+        entry: 576aed14-b9ec-44bc-8b57-73c4e70655d2
+    mx:
+      -
+        entry: 3c6b623c-93ea-4dc8-95b8-37aea777459e

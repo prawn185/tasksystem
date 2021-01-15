@@ -3,14 +3,22 @@
 <head>
     <title>{{ title }}</title>
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="css/tailwind.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 </head>
-<body class="bg-pink-light text-white text-lg font-sans">
+<body class="text-white bg-brand text-lg font-primary">
 
-<div class="bg-grey-dark text-xs py-1">
-    <p class="text-center ">Stay Updated about what we are doing to help you though the Covid Pandemic -></p>
+<div class=" bg-secondary text-xs py-2 text-white ">
+    <div class="container m-auto">
+        <img src="https://www.eposnow.com/_resources/themes/default/dist/images/icon-covid-info.svg" class="h-3 inline" alt="">
+        <p class="inline text-left text-primary mx-1 hover:mr-2">Stay Updated about what we are doing to help you though the Covid Pandemic</p>
+        <img src="https://www.eposnow.com/_resources/themes/default/dist/images/icon-covid-arrow.svg" class="h-3 inline" alt="">
+    </div>
 </div>
 
-<div class="container max-w-lg mx-auto py-8">
+{{ partial src="layout/navigation" }}
+
+<div class=" mx-auto">
     {{ template_content }}
 </div>
 </body>

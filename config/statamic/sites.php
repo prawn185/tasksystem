@@ -16,9 +16,20 @@ return [
     'sites' => [
 
         'default' => [
-            'name' => config('app.name'),
+            'name' => 'Epos Now',
             'locale' => 'en_US',
             'url' => '/',
+        ],
+        'mx' => [
+            'name' => 'MX Site',
+            'locale' => 'es_MX',
+            'url' => '/mx/',
+        ],
+
+        'uk' => [
+            'name' => 'UK Site',
+            'locale' => 'en_GB',
+            'url' => '/us/',
         ],
 
     ],

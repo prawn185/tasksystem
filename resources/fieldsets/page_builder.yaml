@@ -20,3 +20,4 @@ fields:
       icon: replicator
       instructions: 'Build your page by using various predefined content models.'
       listable: hidden
+      localizable: true

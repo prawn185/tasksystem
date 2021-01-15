@@ -1,7 +1,13 @@
-{{# The call to action content block. #}}
-<section class="fluid-container grid md:grid-cols-12 gap-y-8 md:gap-8">
-    <div class="md:col-start-3 md:col-span-8">
+<section class=" grid md:grid-cols-12 bg-secondary">
+    <div class="container md:col-start-3 md:col-span-8">
 
-        {{ title }}
+        <div class="text-center py-5 leading-loose">
+            {{ content }}
+        </div>
+        <div class="hero-image m-auto">
+            {{ hero_image }}
+                <img src="{{ url }}" alt="{{ alt }}" class="max-h-full m-auto" />
+            {{ /hero_image }}
+        </div>
     </div>
 </section>

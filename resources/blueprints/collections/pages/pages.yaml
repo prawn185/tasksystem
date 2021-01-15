@@ -22,7 +22,6 @@ sections:
           type: users
           display: Author
           default: current
-          localizable: true
           max_items: 1
       -
         handle: template
