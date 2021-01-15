@@ -28,7 +28,9 @@ module.exports = {
             'primary': ['Open Sans ','Helvetica','Arial','sans-serif'],
         }
     },
-    variants: {},
+    variants: {
+        margin: ['hover'],
+    },
     plugins: [],
 }
 
