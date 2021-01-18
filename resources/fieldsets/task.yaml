@@ -1,0 +1,12 @@
+title: Task
+fields:
+  -
+    handle: title
+    field:
+      input_type: text
+      antlers: false
+      display: Title
+      type: text
+      icon: text
+      instructions: 'Title of Task'
+      listable: hidden

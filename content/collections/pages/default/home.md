@@ -3,7 +3,7 @@ title: Home
 template: default
 author: cd6e0113-0581-463d-9841-5e46ed105875
 updated_by: cd6e0113-0581-463d-9841-5e46ed105875
-updated_at: 1610721318
+updated_at: 1610978458
 page_builder:
   -
     hero_image: Terminal.png
@@ -93,4 +93,4 @@ page_builder:
     enabled: true
 id: home
 ---
-Default page
+DefaAS

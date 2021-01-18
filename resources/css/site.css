@@ -9,3 +9,24 @@ h2{
 .hero-image{
     height:25em;
 }
+.covidbar{
+    letter-spacing: .05em;
+}
+
+
+#mySidebar {
+    display: none;
+}
+.nav-item,.dropdown-menu li {
+    width: 150px;
+    text-align: center;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+button {
+    outline: none !important;
+}
+.book-demo-btn {
+    padding:15px !important;
+}

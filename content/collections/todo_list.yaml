@@ -1,0 +1,18 @@
+title: Todos
+sites:
+  - default
+template: todo_list/show
+layout: layout
+revisions: false
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+structure:
+  root: false
+  tree:
+    default:
+      -
+        entry: 1b0cb919-3bf0-4fdd-ae44-7f7079c6b81c
+      -
+        entry: be2bf867-9ba3-473a-8f7c-fe5027240117
