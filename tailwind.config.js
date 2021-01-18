@@ -26,7 +26,8 @@ module.exports = {
             sea: "#3b87a4",
         },
         fontFamily: {
-            'primary': ['Open Sans ','Helvetica','Arial','sans-serif'],
+            'primary': ['Open Sans','Helvetica','Arial','sans-serif'],
+            'secondary': ['sofia-pro','Open Sans','Helvetica','Arial','sans-serif'],
         },
         fontSize: {
             sm: ['14px', '20px'],

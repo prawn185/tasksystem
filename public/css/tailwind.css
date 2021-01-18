@@ -600,6 +600,31 @@ h2{
   height:25em;
 }
 
+.covidbar{
+  letter-spacing: .05em;
+}
+
+#mySidebar {
+  display: none;
+}
+
+.nav-item,.dropdown-menu li {
+  width: 150px;
+  text-align: center;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+button {
+  outline: none !important;
+}
+
+.book-demo-btn {
+  padding:15px !important;
+}
+
 .container {
   width: 100%;
 }
@@ -3154,7 +3179,11 @@ h2{
 }
 
 .font-primary {
-  font-family: Open Sans , Helvetica, Arial, sans-serif !important;
+  font-family: Open Sans, Helvetica, Arial, sans-serif !important;
+}
+
+.font-secondary {
+  font-family: sofia-pro, Open Sans, Helvetica, Arial, sans-serif !important;
 }
 
 .font-hairline {
@@ -3353,44 +3382,24 @@ h2{
   height: 100vh !important;
 }
 
-.text-xs {
-  font-size: 0.75rem !important;
-}
-
 .text-sm {
-  font-size: 0.875rem !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
 }
 
 .text-base {
-  font-size: 1rem !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
 }
 
 .text-lg {
-  font-size: 1.125rem !important;
+  font-size: 20px !important;
+  line-height: 28px !important;
 }
 
 .text-xl {
-  font-size: 1.25rem !important;
-}
-
-.text-2xl {
-  font-size: 1.5rem !important;
-}
-
-.text-3xl {
-  font-size: 1.875rem !important;
-}
-
-.text-4xl {
-  font-size: 2.25rem !important;
-}
-
-.text-5xl {
-  font-size: 3rem !important;
-}
-
-.text-6xl {
-  font-size: 4rem !important;
+  font-size: 24px !important;
+  line-height: 32px !important;
 }
 
 .leading-3 {
@@ -13669,7 +13678,11 @@ h2{
   }
 
   .sm\:font-primary {
-    font-family: Open Sans , Helvetica, Arial, sans-serif !important;
+    font-family: Open Sans, Helvetica, Arial, sans-serif !important;
+  }
+
+  .sm\:font-secondary {
+    font-family: sofia-pro, Open Sans, Helvetica, Arial, sans-serif !important;
   }
 
   .sm\:font-hairline {
@@ -13868,44 +13881,24 @@ h2{
     height: 100vh !important;
   }
 
-  .sm\:text-xs {
-    font-size: 0.75rem !important;
-  }
-
   .sm\:text-sm {
-    font-size: 0.875rem !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
   }
 
   .sm\:text-base {
-    font-size: 1rem !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
   }
 
   .sm\:text-lg {
-    font-size: 1.125rem !important;
+    font-size: 20px !important;
+    line-height: 28px !important;
   }
 
   .sm\:text-xl {
-    font-size: 1.25rem !important;
-  }
-
-  .sm\:text-2xl {
-    font-size: 1.5rem !important;
-  }
-
-  .sm\:text-3xl {
-    font-size: 1.875rem !important;
-  }
-
-  .sm\:text-4xl {
-    font-size: 2.25rem !important;
-  }
-
-  .sm\:text-5xl {
-    font-size: 3rem !important;
-  }
-
-  .sm\:text-6xl {
-    font-size: 4rem !important;
+    font-size: 24px !important;
+    line-height: 32px !important;
   }
 
   .sm\:leading-3 {
@@ -21839,7 +21832,11 @@ h2{
   }
 
   .md\:font-primary {
-    font-family: Open Sans , Helvetica, Arial, sans-serif !important;
+    font-family: Open Sans, Helvetica, Arial, sans-serif !important;
+  }
+
+  .md\:font-secondary {
+    font-family: sofia-pro, Open Sans, Helvetica, Arial, sans-serif !important;
   }
 
   .md\:font-hairline {
@@ -22038,44 +22035,24 @@ h2{
     height: 100vh !important;
   }
 
-  .md\:text-xs {
-    font-size: 0.75rem !important;
-  }
-
   .md\:text-sm {
-    font-size: 0.875rem !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
   }
 
   .md\:text-base {
-    font-size: 1rem !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
   }
 
   .md\:text-lg {
-    font-size: 1.125rem !important;
+    font-size: 20px !important;
+    line-height: 28px !important;
   }
 
   .md\:text-xl {
-    font-size: 1.25rem !important;
-  }
-
-  .md\:text-2xl {
-    font-size: 1.5rem !important;
-  }
-
-  .md\:text-3xl {
-    font-size: 1.875rem !important;
-  }
-
-  .md\:text-4xl {
-    font-size: 2.25rem !important;
-  }
-
-  .md\:text-5xl {
-    font-size: 3rem !important;
-  }
-
-  .md\:text-6xl {
-    font-size: 4rem !important;
+    font-size: 24px !important;
+    line-height: 32px !important;
   }
 
   .md\:leading-3 {
@@ -30009,7 +29986,11 @@ h2{
   }
 
   .lg\:font-primary {
-    font-family: Open Sans , Helvetica, Arial, sans-serif !important;
+    font-family: Open Sans, Helvetica, Arial, sans-serif !important;
+  }
+
+  .lg\:font-secondary {
+    font-family: sofia-pro, Open Sans, Helvetica, Arial, sans-serif !important;
   }
 
   .lg\:font-hairline {
@@ -30208,44 +30189,24 @@ h2{
     height: 100vh !important;
   }
 
-  .lg\:text-xs {
-    font-size: 0.75rem !important;
-  }
-
   .lg\:text-sm {
-    font-size: 0.875rem !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
   }
 
   .lg\:text-base {
-    font-size: 1rem !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
   }
 
   .lg\:text-lg {
-    font-size: 1.125rem !important;
+    font-size: 20px !important;
+    line-height: 28px !important;
   }
 
   .lg\:text-xl {
-    font-size: 1.25rem !important;
-  }
-
-  .lg\:text-2xl {
-    font-size: 1.5rem !important;
-  }
-
-  .lg\:text-3xl {
-    font-size: 1.875rem !important;
-  }
-
-  .lg\:text-4xl {
-    font-size: 2.25rem !important;
-  }
-
-  .lg\:text-5xl {
-    font-size: 3rem !important;
-  }
-
-  .lg\:text-6xl {
-    font-size: 4rem !important;
+    font-size: 24px !important;
+    line-height: 32px !important;
   }
 
   .lg\:leading-3 {
@@ -38179,7 +38140,11 @@ h2{
   }
 
   .xl\:font-primary {
-    font-family: Open Sans , Helvetica, Arial, sans-serif !important;
+    font-family: Open Sans, Helvetica, Arial, sans-serif !important;
+  }
+
+  .xl\:font-secondary {
+    font-family: sofia-pro, Open Sans, Helvetica, Arial, sans-serif !important;
   }
 
   .xl\:font-hairline {
@@ -38378,44 +38343,24 @@ h2{
     height: 100vh !important;
   }
 
-  .xl\:text-xs {
-    font-size: 0.75rem !important;
-  }
-
   .xl\:text-sm {
-    font-size: 0.875rem !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
   }
 
   .xl\:text-base {
-    font-size: 1rem !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
   }
 
   .xl\:text-lg {
-    font-size: 1.125rem !important;
+    font-size: 20px !important;
+    line-height: 28px !important;
   }
 
   .xl\:text-xl {
-    font-size: 1.25rem !important;
-  }
-
-  .xl\:text-2xl {
-    font-size: 1.5rem !important;
-  }
-
-  .xl\:text-3xl {
-    font-size: 1.875rem !important;
-  }
-
-  .xl\:text-4xl {
-    font-size: 2.25rem !important;
-  }
-
-  .xl\:text-5xl {
-    font-size: 3rem !important;
-  }
-
-  .xl\:text-6xl {
-    font-size: 4rem !important;
+    font-size: 24px !important;
+    line-height: 32px !important;
   }
 
   .xl\:leading-3 {

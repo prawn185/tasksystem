@@ -1,4 +1,4 @@
-<header class="bg-white shadow">
+<header class="bg-white shadow font-secondary">
     <div class="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8 container">
         <div class="relative flex justify-between">
             <div class="relative z-10 flex items-center lg:hidden">
@@ -14,51 +14,42 @@
         </div>
         <nav class="hidden lg:py-0 lg:flex" aria-label="Global">
             <!-- Current: "bg-gray-100 text-gray-900", Default: "text-gray-900 hover:bg-gray-50 hover:text-gray-900" -->
-            <a href="#" class="rounded-md inline-flex items-center font-bold mr-10">
+            <a href="#" class="rounded-md inline-flex items-center font-semibold text-sm mr-10">
                 <img class="block h-8 w-auto" src="https://ss.eposnow.com/_resources/themes/default/dist/images/logo.svg" alt="Epos Now">
             </a>
+            {{ nav:main }}
+
+            {{ if children }}
             <div class="nav-item dropdown inline-block relative border-r-2 border-l-2">
-                <button class="text-navydark hover:text-brand font-bold py-2 px-4 rounded inline-flex items-center">
-                    <span class="mr-1">Retail</span>
+
+
+                <button class="text-secondary hover:text-brand font-semibold text-sm py-4 px-4 rounded inline-flex items-center">
+                    <span class="mr-1">{{ title }}</span>
                     <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path> </svg>
                 </button>
-                <ul class="dropdown-menu absolute hidden text-navydark hover:text-brand pt-1">
+                <ul class="dropdown-menu absolute hidden text-secondary hover:text-brand pt-1">
                     <li class=""><a class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">One</a></li>
                     <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Two</a></li>
                     <li class=""><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Three</a></li>
                     <li class=""><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">More</a></li>
                 </ul>
-            </div>
-            <div class="nav-item dropdown inline-block relative border-r-2">
-                <button class="text-navydark hover:text-brand font-bold py-2 px-4 rounded inline-flex items-center">
-                    <span class="mr-1">Hospitality</span>
-                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path> </svg>
-                </button>
-                <ul class="dropdown-menu absolute hidden text-navydark hover:text-brand pt-1">
-                    <li class=""><a class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">One</a></li>
-                    <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap w-full" href="#">Two</a></li>
-                    <li class=""><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Three</a></li>
-                    <li class=""><a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">More</a></li>
-                </ul>
-            </div>
-            <a href="#" class="text-navydark hover:text-brand font-bold lg:ml-3 py-4 px-4">
-                About
-            </a>
 
-            <a href="#" class="text-navydark hover:text-brand font-bold lg:ml-3 py-4 px-4">
-                Resources
-            </a>
 
-            <a href="#" class="text-navydark hover:text-brand font-bold lg:ml-3 py-4 px-4">
-                Contact
+            </div>
+            {{else}}
+            <a href="#" class="text-secondary hover:text-brand font-semibold text-sm lg:ml-3 py-4 px-4">
+                {{ title }}
             </a>
-            <a href="#" class="text-navydark hover:text-brand font-bold lg:ml-5 py-4 px-4">
+            {{ endif }}
+
+            {{ /nav:main }}
+            <a href="#" class="text-secondary hover:text-brand font-semibold text-sm lg:ml-5 py-4 px-4">
                 0808 291 5483
             </a>
-            <a href="#" class="text-navydark hover:text-brand font-bold border-l-2 py-4 px-4">
+            <a href="#" class="text-secondary hover:text-brand font-semibold text-sm border-l-2 py-4 px-4">
                 Store
             </a>
-            <a href="#" class="book-demo-btn bg-brand font-bold text-white font-medium">
+            <a href="#" class="book-demo-btn bg-brand font-semibold text-sm text-white font-semibold text-sm">
                 Book a Demo
             </a>
         </nav>
@@ -66,15 +57,15 @@
     <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
     <nav id="mySidebar" class="hidden lg:hidden bg-gray-200" aria-label="Global">
         <div class="pt-2 pb-3 px-2 space-y-1">
-            <a href="#" class="text-gray-900 block rounded-md py-2 px-3 text-base font-medium">
+            <a href="#" class="text-gray-900 block rounded-md py-2 px-3 text-sm font-semibold text-sm">
                 <img class="block h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-logo-indigo-600-mark-gray-800-text.svg" alt="Workflow">
             </a>
             <div class="nav-item dropdown inline-block relative border-r-2 border-l-2">
-                <button class="text-navydark hover:text-brand font-bold py-2 px-4 rounded inline-flex items-center">
+                <button class="text-secondary hover:text-brand font-semibold text-sm py-4 px-4 rounded inline-flex items-center">
                     <span class="mr-1">Retail</span>
                     <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
                 </button>
-                <ul class="dropdown-menu absolute hidden text-navydark hover:text-brand pt-1">
+                <ul class="dropdown-menu absolute hidden text-secondary hover:text-brand pt-1">
                     <li class=""><a class="rounded-t bg-white hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">One</a></li>
                     <li class=""><a class="bg-white hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Two</a></li>
                     <li class=""><a class="rounded-b bg-white hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Three</a></li>
@@ -82,33 +73,33 @@
                 </ul>
             </div>
             <div class="nav-item dropdown inline-block relative border-r-2">
-                <button class="text-navydark hover:text-brand font-bold py-2 px-4 rounded inline-flex items-center">
+                <button class="text-secondary hover:text-brand font-semibold text-sm py-4 px-4 rounded inline-flex items-center">
                     <span class="mr-1">Hospitality</span>
                     <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
                 </button>
-                <ul class="dropdown-menu absolute hidden text-navydark hover:text-brand pt-1">
+                <ul class="dropdown-menu absolute hidden text-secondary hover:text-brand pt-1">
                     <li class=""><a class="rounded-t bg-white hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">One</a></li>
                     <li class=""><a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap w-full" href="#">Two</a></li>
                     <li class=""><a class="rounded-b bg-white hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Three</a></li>
                     <li class=""><a class="rounded-b bg-white hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">More</a></li>
                 </ul>
             </div>
-            <a href="#" class="text-gray-900 block rounded-md py-2 px-3 text-base font-medium">
+            <a href="#" class="text-gray-900 block rounded-md py-2 px-3 text-sm font-semibold text-sm">
                 Team
             </a>
-            <a href="#" class="text-gray-900 block rounded-md py-2 px-3 text-base font-medium">
+            <a href="#" class="text-gray-900 block rounded-md py-2 px-3 text-sm font-semibold text-sm">
                 Projects
             </a>
-            <a href="#" class="text-gray-900 block rounded-md py-2 px-3 text-base font-medium">
+            <a href="#" class="text-gray-900 block rounded-md py-2 px-3 text-sm font-semibold text-sm">
                 Calendar
             </a>
-            <a href="#" class="text-gray-900 block rounded-md py-2 px-3 text-base font-medium">
+            <a href="#" class="text-gray-900 block rounded-md py-2 px-3 text-sm font-semibold text-sm">
                 00 300 000000
             </a>
-            <a href="#" class="text-gray-900 block rounded-md py-2 px-3 text-base font-medium">
+            <a href="#" class="text-gray-900 block rounded-md py-2 px-3 text-sm font-semibold text-sm">
                 Store
             </a>
-            <a href="#" class="book-demo-btn bg-brand text-white font-medium">
+            <a href="#" class="book-demo-btn bg-brand text-white font-semibold text-sm">
                 Book a Demo
             </a>
         </div>

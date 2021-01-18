@@ -2,7 +2,7 @@ title: Pages
 sites:
   - default
   - mx
-revisions: false
+revisions: true
 route: '{parent_uri}/{slug}'
 structure:
   root: true

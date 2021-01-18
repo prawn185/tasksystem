@@ -43,6 +43,7 @@ return [
             'type' => 'updater',
             'width' => '100',
         ],
+        'todo_list'
     ],
 
     /*

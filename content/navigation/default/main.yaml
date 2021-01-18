@@ -1,5 +1,25 @@
 tree:
   -
-    entry: home
-  -
     entry: 094b9710-fecb-4541-bbd1-2456095c79f1
+    children:
+      -
+        title: resturant
+      -
+        title: resturant
+      -
+        title: resturant
+  -
+    title: Hospitality
+    children:
+      -
+        title: '{{ title }}'
+      -
+        title: '{{ title }}'
+      -
+        title: '{{ title }}'
+  -
+    title: About
+  -
+    title: Resources
+  -
+    title: Contact
