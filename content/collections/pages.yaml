@@ -1,7 +1,13 @@
 title: Pages
 sites:
   - default
+  - ie
+  - us
+  - ca
+  - au
+  - nz
   - mx
+  - es
 revisions: true
 route: '{parent_uri}/{slug}'
 structure:
