@@ -12,3 +12,7 @@ Statamic.booting(() => {
 });
 
 */
+// Statamic.$hooks.on('entry.saving', (resolve, reject, payload) => {
+//     alert(payload.values.origin);
+//     resolve();
+// });

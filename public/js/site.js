@@ -108,14 +108,26 @@
 
 /***/ }),
 
+/***/ "./resources/sass/cp.scss":
+/*!********************************!*\
+  !*** ./resources/sass/cp.scss ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ 0:
-/*!*****************************************************************!*\
-  !*** multi ./resources/js/site.js ./resources/css/tailwind.css ***!
-  \*****************************************************************/
+/*!******************************************************************************************!*\
+  !*** multi ./resources/js/site.js ./resources/sass/cp.scss ./resources/css/tailwind.css ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /home/shaun/Dev/newpos/resources/js/site.js */"./resources/js/site.js");
+__webpack_require__(/*! /home/shaun/Dev/newpos/resources/sass/cp.scss */"./resources/sass/cp.scss");
 module.exports = __webpack_require__(/*! /home/shaun/Dev/newpos/resources/css/tailwind.css */"./resources/css/tailwind.css");
 
 

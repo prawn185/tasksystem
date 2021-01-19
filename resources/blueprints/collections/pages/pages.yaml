@@ -17,13 +17,6 @@ sections:
           display: Content
           localizable: true
       -
-        handle: author
-        field:
-          type: users
-          display: Author
-          default: current
-          max_items: 1
-      -
         handle: template
         field:
           type: template
@@ -49,6 +42,24 @@ sections:
           max_items: 1
           listable: false
           localizable: true
+      -
+        handle: author
+        field:
+          type: users
+          display: Author
+          default: current
+          max_items: 1
+          localizable: true
+      -
+        handle: origin
+        field:
+          max_items: 1
+          mode: default
+          display: Origin
+          type: sites
+          icon: sites
+          localizable: true
+          listable: hidden
   page_builder:
     display: 'Page Builder'
     fields:
