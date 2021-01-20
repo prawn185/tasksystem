@@ -27,10 +27,10 @@ class ChangeOriginOnSave
      */
     public function handle(EntrySaving $event)
     {
-        $entry->set('foo', 'bar');
-        $entry->save();
-
-        return false;
+//        $entry->set('foo', 'bar');
+//        $entry->save();
+//
+//        return false;
 
     }
 }

@@ -12,7 +12,15 @@ Statamic.booting(() => {
 });
 
 */
-// Statamic.$hooks.on('entry.saving', (resolve, reject, payload) => {
-//     alert(payload.values.origin);
-//     resolve();
-// });
+Statamic.$hooks.on('entry.saving', (resolve, reject, payload) => {
+    console.log(payload.values.sites);
+    resolve();
+});
+
+import SiteID from './components/fieldtypes/SiteIDRelationshipItem.vue';
+
+Statamic.booting(() => {
+    Statamic.$components.register('site_i_d-fieldtype', SiteID);
+});
+
+
