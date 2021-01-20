@@ -18,9 +18,10 @@ module.exports = {
             // },
             navydark: "#07111f",
             grey: {
+                lighter: "#e8e8e8",
                 light: "#f5f5f5",
                 DEFAULT: "#999999",
-                dark: "#555555",
+                dark: "#999999",
             },
             green: "#33b55f",
             sea: "#3b87a4",
@@ -38,6 +39,9 @@ module.exports = {
     },
     variants: {
         margin: ['hover'],
+        textColor: ['responsive', 'hover', 'focus', 'group-hover'],
+        transform: ['responsive', 'hover', 'focus', 'group-hover'],
+        rotate: ['responsive', 'hover', 'focus', 'group-hover'],
     },
     plugins: [],
 }

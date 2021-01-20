@@ -18,7 +18,7 @@ h2{
     display: none;
 }
 .nav-item,.dropdown-menu li {
-    width: 150px;
+    width: 170px;
     text-align: center;
 }
 .dropdown:hover .dropdown-menu {
