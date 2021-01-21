@@ -630,8 +630,13 @@ button {
 }
 
 .image-left-textbox h3{
-  font-size: larger;
+  font-size: 150%;
   color:#00b5fa;
+  margin-bottom: .5em;
+}
+
+.image-left-textbox h2, .image-left-textbox p{
+  margin-bottom: .5em;
 }
 
 .container {
