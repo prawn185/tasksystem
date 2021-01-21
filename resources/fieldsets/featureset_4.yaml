@@ -1,0 +1,76 @@
+title: Featureset
+fields:
+  -
+    handle: color
+    field:
+      theme: classic
+      lock_opacity: false
+      default_color_mode: HEXA
+      color_modes:
+        - HEXA
+      display: Color
+      type: color
+      icon: color
+      listable: hidden
+      swatches:
+        - '#ffffff'
+  -
+    handle: replicator
+    field:
+      collapse: false
+      sets:
+        new_set:
+          display: 'New Set'
+          fields:
+            -
+              handle: icon
+              field:
+                mode: grid
+                restrict: false
+                allow_uploads: true
+                max_files: 1
+                display: Icon
+                type: assets
+                icon: assets
+                listable: hidden
+            -
+              handle: text
+              field:
+                always_show_set_button: false
+                buttons:
+                  - h2
+                  - h3
+                  - bold
+                  - italic
+                  - unorderedlist
+                  - orderedlist
+                  - removeformat
+                  - quote
+                  - anchor
+                  - image
+                  - table
+                save_html: false
+                toolbar_mode: fixed
+                link_noopener: false
+                link_noreferrer: false
+                target_blank: false
+                reading_time: false
+                fullscreen: true
+                allow_source: true
+                display: Text
+                type: bard
+                icon: bard
+                listable: hidden
+      display: Replicator
+      type: replicator
+      icon: replicator
+      listable: hidden
+  -
+    handle: text
+    field:
+      input_type: text
+      antlers: false
+      display: Text
+      type: text
+      icon: text
+      listable: hidden
