@@ -1,0 +1,37 @@
+title: 'Feature Set'
+fields:
+  -
+    handle: color
+    field:
+      theme: classic
+      lock_opacity: false
+      default_color_mode: HEXA
+      color_modes:
+        - HEXA
+      display: Color
+      type: color
+      icon: color
+      listable: hidden
+  -
+    handle: text
+    field:
+      input_type: text
+      antlers: false
+      display: Text
+      type: text
+      icon: text
+      listable: hidden
+  -
+    handle: replicator
+    field:
+      collapse: false
+      sets:
+        feature_item:
+          display: 'Feature Item'
+          fields:
+            -
+              import: feature_item
+      display: Replicator
+      type: replicator
+      icon: replicator
+      listable: hidden

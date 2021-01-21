@@ -25,12 +25,11 @@ fields:
           fields:
             -
               import: text_image_left
-        featureset:
-          display: Featureset
+        feature_set:
+          display: 'Feature Set'
           fields:
             -
-              handle: replicator
-              field: featureset_4.replicator
+              import: feature_set
       display: 'Page Builder'
       type: replicator
       icon: replicator

@@ -20,3 +20,6 @@ preferences:
         - user
         - description
         - status
+  assets:
+    assets:
+      mode: grid
