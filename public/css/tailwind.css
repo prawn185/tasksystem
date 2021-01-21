@@ -625,6 +625,15 @@ button {
   padding:15px !important;
 }
 
+.current{
+  border-top: 2px solid #00b5fa;
+}
+
+.image-left-textbox h3{
+  font-size: larger;
+  color:#00b5fa;
+}
+
 .container {
   width: 100%;
 }
@@ -1181,8 +1190,8 @@ button {
 
 .divide-secondary > :not(template) ~ :not(template) {
   --divide-opacity: 1 !important;
-  border-color: #0b2b48 !important;
-  border-color: rgba(11, 43, 72, var(--divide-opacity)) !important;
+  border-color: #071323 !important;
+  border-color: rgba(7, 19, 35, var(--divide-opacity)) !important;
 }
 
 .divide-navydark > :not(template) ~ :not(template) {
@@ -1356,8 +1365,8 @@ button {
 
 .bg-secondary {
   --bg-opacity: 1 !important;
-  background-color: #0b2b48 !important;
-  background-color: rgba(11, 43, 72, var(--bg-opacity)) !important;
+  background-color: #071323 !important;
+  background-color: rgba(7, 19, 35, var(--bg-opacity)) !important;
 }
 
 .bg-navydark {
@@ -1410,8 +1419,8 @@ button {
 
 .hover\:bg-secondary:hover {
   --bg-opacity: 1 !important;
-  background-color: #0b2b48 !important;
-  background-color: rgba(11, 43, 72, var(--bg-opacity)) !important;
+  background-color: #071323 !important;
+  background-color: rgba(7, 19, 35, var(--bg-opacity)) !important;
 }
 
 .hover\:bg-navydark:hover {
@@ -1464,8 +1473,8 @@ button {
 
 .focus\:bg-secondary:focus {
   --bg-opacity: 1 !important;
-  background-color: #0b2b48 !important;
-  background-color: rgba(11, 43, 72, var(--bg-opacity)) !important;
+  background-color: #071323 !important;
+  background-color: rgba(7, 19, 35, var(--bg-opacity)) !important;
 }
 
 .focus\:bg-navydark:focus {
@@ -1552,8 +1561,8 @@ button {
 }
 
 .from-secondary {
-  --gradient-from-color: #0b2b48 !important;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+  --gradient-from-color: #071323 !important;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
 }
 
 .from-navydark {
@@ -1597,8 +1606,8 @@ button {
 }
 
 .via-secondary {
-  --gradient-via-color: #0b2b48 !important;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+  --gradient-via-color: #071323 !important;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
 }
 
 .via-navydark {
@@ -1641,7 +1650,7 @@ button {
 }
 
 .to-secondary {
-  --gradient-to-color: #0b2b48 !important;
+  --gradient-to-color: #071323 !important;
 }
 
 .to-navydark {
@@ -1678,8 +1687,8 @@ button {
 }
 
 .hover\:from-secondary:hover {
-  --gradient-from-color: #0b2b48 !important;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+  --gradient-from-color: #071323 !important;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
 }
 
 .hover\:from-navydark:hover {
@@ -1723,8 +1732,8 @@ button {
 }
 
 .hover\:via-secondary:hover {
-  --gradient-via-color: #0b2b48 !important;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+  --gradient-via-color: #071323 !important;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
 }
 
 .hover\:via-navydark:hover {
@@ -1767,7 +1776,7 @@ button {
 }
 
 .hover\:to-secondary:hover {
-  --gradient-to-color: #0b2b48 !important;
+  --gradient-to-color: #071323 !important;
 }
 
 .hover\:to-navydark:hover {
@@ -1804,8 +1813,8 @@ button {
 }
 
 .focus\:from-secondary:focus {
-  --gradient-from-color: #0b2b48 !important;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+  --gradient-from-color: #071323 !important;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
 }
 
 .focus\:from-navydark:focus {
@@ -1849,8 +1858,8 @@ button {
 }
 
 .focus\:via-secondary:focus {
-  --gradient-via-color: #0b2b48 !important;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+  --gradient-via-color: #071323 !important;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
 }
 
 .focus\:via-navydark:focus {
@@ -1893,7 +1902,7 @@ button {
 }
 
 .focus\:to-secondary:focus {
-  --gradient-to-color: #0b2b48 !important;
+  --gradient-to-color: #071323 !important;
 }
 
 .focus\:to-navydark:focus {
@@ -2072,8 +2081,8 @@ button {
 
 .border-secondary {
   --border-opacity: 1 !important;
-  border-color: #0b2b48 !important;
-  border-color: rgba(11, 43, 72, var(--border-opacity)) !important;
+  border-color: #071323 !important;
+  border-color: rgba(7, 19, 35, var(--border-opacity)) !important;
 }
 
 .border-navydark {
@@ -2126,8 +2135,8 @@ button {
 
 .hover\:border-secondary:hover {
   --border-opacity: 1 !important;
-  border-color: #0b2b48 !important;
-  border-color: rgba(11, 43, 72, var(--border-opacity)) !important;
+  border-color: #071323 !important;
+  border-color: rgba(7, 19, 35, var(--border-opacity)) !important;
 }
 
 .hover\:border-navydark:hover {
@@ -2180,8 +2189,8 @@ button {
 
 .focus\:border-secondary:focus {
   --border-opacity: 1 !important;
-  border-color: #0b2b48 !important;
-  border-color: rgba(11, 43, 72, var(--border-opacity)) !important;
+  border-color: #071323 !important;
+  border-color: rgba(7, 19, 35, var(--border-opacity)) !important;
 }
 
 .focus\:border-navydark:focus {
@@ -6779,20 +6788,20 @@ button {
 
 .placeholder-secondary::-moz-placeholder {
   --placeholder-opacity: 1 !important;
-  color: #0b2b48 !important;
-  color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+  color: #071323 !important;
+  color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
 }
 
 .placeholder-secondary:-ms-input-placeholder {
   --placeholder-opacity: 1 !important;
-  color: #0b2b48 !important;
-  color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+  color: #071323 !important;
+  color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
 }
 
 .placeholder-secondary::placeholder {
   --placeholder-opacity: 1 !important;
-  color: #0b2b48 !important;
-  color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+  color: #071323 !important;
+  color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
 }
 
 .placeholder-navydark::-moz-placeholder {
@@ -6941,20 +6950,20 @@ button {
 
 .focus\:placeholder-secondary:focus::-moz-placeholder {
   --placeholder-opacity: 1 !important;
-  color: #0b2b48 !important;
-  color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+  color: #071323 !important;
+  color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
 }
 
 .focus\:placeholder-secondary:focus:-ms-input-placeholder {
   --placeholder-opacity: 1 !important;
-  color: #0b2b48 !important;
-  color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+  color: #071323 !important;
+  color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
 }
 
 .focus\:placeholder-secondary:focus::placeholder {
   --placeholder-opacity: 1 !important;
-  color: #0b2b48 !important;
-  color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+  color: #071323 !important;
+  color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
 }
 
 .focus\:placeholder-navydark:focus::-moz-placeholder {
@@ -7486,8 +7495,8 @@ button {
 
 .text-secondary {
   --text-opacity: 1 !important;
-  color: #0b2b48 !important;
-  color: rgba(11, 43, 72, var(--text-opacity)) !important;
+  color: #071323 !important;
+  color: rgba(7, 19, 35, var(--text-opacity)) !important;
 }
 
 .text-navydark {
@@ -7540,8 +7549,8 @@ button {
 
 .hover\:text-secondary:hover {
   --text-opacity: 1 !important;
-  color: #0b2b48 !important;
-  color: rgba(11, 43, 72, var(--text-opacity)) !important;
+  color: #071323 !important;
+  color: rgba(7, 19, 35, var(--text-opacity)) !important;
 }
 
 .hover\:text-navydark:hover {
@@ -7594,8 +7603,8 @@ button {
 
 .focus\:text-secondary:focus {
   --text-opacity: 1 !important;
-  color: #0b2b48 !important;
-  color: rgba(11, 43, 72, var(--text-opacity)) !important;
+  color: #071323 !important;
+  color: rgba(7, 19, 35, var(--text-opacity)) !important;
 }
 
 .focus\:text-navydark:focus {
@@ -7648,8 +7657,8 @@ button {
 
 .group:hover .group-hover\:text-secondary {
   --text-opacity: 1 !important;
-  color: #0b2b48 !important;
-  color: rgba(11, 43, 72, var(--text-opacity)) !important;
+  color: #071323 !important;
+  color: rgba(7, 19, 35, var(--text-opacity)) !important;
 }
 
 .group:hover .group-hover\:text-navydark {
@@ -11985,8 +11994,8 @@ button {
 
   .sm\:divide-secondary > :not(template) ~ :not(template) {
     --divide-opacity: 1 !important;
-    border-color: #0b2b48 !important;
-    border-color: rgba(11, 43, 72, var(--divide-opacity)) !important;
+    border-color: #071323 !important;
+    border-color: rgba(7, 19, 35, var(--divide-opacity)) !important;
   }
 
   .sm\:divide-navydark > :not(template) ~ :not(template) {
@@ -12160,8 +12169,8 @@ button {
 
   .sm\:bg-secondary {
     --bg-opacity: 1 !important;
-    background-color: #0b2b48 !important;
-    background-color: rgba(11, 43, 72, var(--bg-opacity)) !important;
+    background-color: #071323 !important;
+    background-color: rgba(7, 19, 35, var(--bg-opacity)) !important;
   }
 
   .sm\:bg-navydark {
@@ -12214,8 +12223,8 @@ button {
 
   .sm\:hover\:bg-secondary:hover {
     --bg-opacity: 1 !important;
-    background-color: #0b2b48 !important;
-    background-color: rgba(11, 43, 72, var(--bg-opacity)) !important;
+    background-color: #071323 !important;
+    background-color: rgba(7, 19, 35, var(--bg-opacity)) !important;
   }
 
   .sm\:hover\:bg-navydark:hover {
@@ -12268,8 +12277,8 @@ button {
 
   .sm\:focus\:bg-secondary:focus {
     --bg-opacity: 1 !important;
-    background-color: #0b2b48 !important;
-    background-color: rgba(11, 43, 72, var(--bg-opacity)) !important;
+    background-color: #071323 !important;
+    background-color: rgba(7, 19, 35, var(--bg-opacity)) !important;
   }
 
   .sm\:focus\:bg-navydark:focus {
@@ -12356,8 +12365,8 @@ button {
   }
 
   .sm\:from-secondary {
-    --gradient-from-color: #0b2b48 !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+    --gradient-from-color: #071323 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
   }
 
   .sm\:from-navydark {
@@ -12401,8 +12410,8 @@ button {
   }
 
   .sm\:via-secondary {
-    --gradient-via-color: #0b2b48 !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+    --gradient-via-color: #071323 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
   }
 
   .sm\:via-navydark {
@@ -12445,7 +12454,7 @@ button {
   }
 
   .sm\:to-secondary {
-    --gradient-to-color: #0b2b48 !important;
+    --gradient-to-color: #071323 !important;
   }
 
   .sm\:to-navydark {
@@ -12482,8 +12491,8 @@ button {
   }
 
   .sm\:hover\:from-secondary:hover {
-    --gradient-from-color: #0b2b48 !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+    --gradient-from-color: #071323 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
   }
 
   .sm\:hover\:from-navydark:hover {
@@ -12527,8 +12536,8 @@ button {
   }
 
   .sm\:hover\:via-secondary:hover {
-    --gradient-via-color: #0b2b48 !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+    --gradient-via-color: #071323 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
   }
 
   .sm\:hover\:via-navydark:hover {
@@ -12571,7 +12580,7 @@ button {
   }
 
   .sm\:hover\:to-secondary:hover {
-    --gradient-to-color: #0b2b48 !important;
+    --gradient-to-color: #071323 !important;
   }
 
   .sm\:hover\:to-navydark:hover {
@@ -12608,8 +12617,8 @@ button {
   }
 
   .sm\:focus\:from-secondary:focus {
-    --gradient-from-color: #0b2b48 !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+    --gradient-from-color: #071323 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
   }
 
   .sm\:focus\:from-navydark:focus {
@@ -12653,8 +12662,8 @@ button {
   }
 
   .sm\:focus\:via-secondary:focus {
-    --gradient-via-color: #0b2b48 !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+    --gradient-via-color: #071323 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
   }
 
   .sm\:focus\:via-navydark:focus {
@@ -12697,7 +12706,7 @@ button {
   }
 
   .sm\:focus\:to-secondary:focus {
-    --gradient-to-color: #0b2b48 !important;
+    --gradient-to-color: #071323 !important;
   }
 
   .sm\:focus\:to-navydark:focus {
@@ -12876,8 +12885,8 @@ button {
 
   .sm\:border-secondary {
     --border-opacity: 1 !important;
-    border-color: #0b2b48 !important;
-    border-color: rgba(11, 43, 72, var(--border-opacity)) !important;
+    border-color: #071323 !important;
+    border-color: rgba(7, 19, 35, var(--border-opacity)) !important;
   }
 
   .sm\:border-navydark {
@@ -12930,8 +12939,8 @@ button {
 
   .sm\:hover\:border-secondary:hover {
     --border-opacity: 1 !important;
-    border-color: #0b2b48 !important;
-    border-color: rgba(11, 43, 72, var(--border-opacity)) !important;
+    border-color: #071323 !important;
+    border-color: rgba(7, 19, 35, var(--border-opacity)) !important;
   }
 
   .sm\:hover\:border-navydark:hover {
@@ -12984,8 +12993,8 @@ button {
 
   .sm\:focus\:border-secondary:focus {
     --border-opacity: 1 !important;
-    border-color: #0b2b48 !important;
-    border-color: rgba(11, 43, 72, var(--border-opacity)) !important;
+    border-color: #071323 !important;
+    border-color: rgba(7, 19, 35, var(--border-opacity)) !important;
   }
 
   .sm\:focus\:border-navydark:focus {
@@ -15303,20 +15312,20 @@ button {
 
   .sm\:placeholder-secondary::-moz-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
   }
 
   .sm\:placeholder-secondary:-ms-input-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
   }
 
   .sm\:placeholder-secondary::placeholder {
     --placeholder-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
   }
 
   .sm\:placeholder-navydark::-moz-placeholder {
@@ -15465,20 +15474,20 @@ button {
 
   .sm\:focus\:placeholder-secondary:focus::-moz-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
   }
 
   .sm\:focus\:placeholder-secondary:focus:-ms-input-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
   }
 
   .sm\:focus\:placeholder-secondary:focus::placeholder {
     --placeholder-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
   }
 
   .sm\:focus\:placeholder-navydark:focus::-moz-placeholder {
@@ -16010,8 +16019,8 @@ button {
 
   .sm\:text-secondary {
     --text-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--text-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--text-opacity)) !important;
   }
 
   .sm\:text-navydark {
@@ -16064,8 +16073,8 @@ button {
 
   .sm\:hover\:text-secondary:hover {
     --text-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--text-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--text-opacity)) !important;
   }
 
   .sm\:hover\:text-navydark:hover {
@@ -16118,8 +16127,8 @@ button {
 
   .sm\:focus\:text-secondary:focus {
     --text-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--text-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--text-opacity)) !important;
   }
 
   .sm\:focus\:text-navydark:focus {
@@ -16172,8 +16181,8 @@ button {
 
   .group:hover .sm\:group-hover\:text-secondary {
     --text-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--text-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--text-opacity)) !important;
   }
 
   .group:hover .sm\:group-hover\:text-navydark {
@@ -20444,8 +20453,8 @@ button {
 
   .md\:divide-secondary > :not(template) ~ :not(template) {
     --divide-opacity: 1 !important;
-    border-color: #0b2b48 !important;
-    border-color: rgba(11, 43, 72, var(--divide-opacity)) !important;
+    border-color: #071323 !important;
+    border-color: rgba(7, 19, 35, var(--divide-opacity)) !important;
   }
 
   .md\:divide-navydark > :not(template) ~ :not(template) {
@@ -20619,8 +20628,8 @@ button {
 
   .md\:bg-secondary {
     --bg-opacity: 1 !important;
-    background-color: #0b2b48 !important;
-    background-color: rgba(11, 43, 72, var(--bg-opacity)) !important;
+    background-color: #071323 !important;
+    background-color: rgba(7, 19, 35, var(--bg-opacity)) !important;
   }
 
   .md\:bg-navydark {
@@ -20673,8 +20682,8 @@ button {
 
   .md\:hover\:bg-secondary:hover {
     --bg-opacity: 1 !important;
-    background-color: #0b2b48 !important;
-    background-color: rgba(11, 43, 72, var(--bg-opacity)) !important;
+    background-color: #071323 !important;
+    background-color: rgba(7, 19, 35, var(--bg-opacity)) !important;
   }
 
   .md\:hover\:bg-navydark:hover {
@@ -20727,8 +20736,8 @@ button {
 
   .md\:focus\:bg-secondary:focus {
     --bg-opacity: 1 !important;
-    background-color: #0b2b48 !important;
-    background-color: rgba(11, 43, 72, var(--bg-opacity)) !important;
+    background-color: #071323 !important;
+    background-color: rgba(7, 19, 35, var(--bg-opacity)) !important;
   }
 
   .md\:focus\:bg-navydark:focus {
@@ -20815,8 +20824,8 @@ button {
   }
 
   .md\:from-secondary {
-    --gradient-from-color: #0b2b48 !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+    --gradient-from-color: #071323 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
   }
 
   .md\:from-navydark {
@@ -20860,8 +20869,8 @@ button {
   }
 
   .md\:via-secondary {
-    --gradient-via-color: #0b2b48 !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+    --gradient-via-color: #071323 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
   }
 
   .md\:via-navydark {
@@ -20904,7 +20913,7 @@ button {
   }
 
   .md\:to-secondary {
-    --gradient-to-color: #0b2b48 !important;
+    --gradient-to-color: #071323 !important;
   }
 
   .md\:to-navydark {
@@ -20941,8 +20950,8 @@ button {
   }
 
   .md\:hover\:from-secondary:hover {
-    --gradient-from-color: #0b2b48 !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+    --gradient-from-color: #071323 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
   }
 
   .md\:hover\:from-navydark:hover {
@@ -20986,8 +20995,8 @@ button {
   }
 
   .md\:hover\:via-secondary:hover {
-    --gradient-via-color: #0b2b48 !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+    --gradient-via-color: #071323 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
   }
 
   .md\:hover\:via-navydark:hover {
@@ -21030,7 +21039,7 @@ button {
   }
 
   .md\:hover\:to-secondary:hover {
-    --gradient-to-color: #0b2b48 !important;
+    --gradient-to-color: #071323 !important;
   }
 
   .md\:hover\:to-navydark:hover {
@@ -21067,8 +21076,8 @@ button {
   }
 
   .md\:focus\:from-secondary:focus {
-    --gradient-from-color: #0b2b48 !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+    --gradient-from-color: #071323 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
   }
 
   .md\:focus\:from-navydark:focus {
@@ -21112,8 +21121,8 @@ button {
   }
 
   .md\:focus\:via-secondary:focus {
-    --gradient-via-color: #0b2b48 !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+    --gradient-via-color: #071323 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
   }
 
   .md\:focus\:via-navydark:focus {
@@ -21156,7 +21165,7 @@ button {
   }
 
   .md\:focus\:to-secondary:focus {
-    --gradient-to-color: #0b2b48 !important;
+    --gradient-to-color: #071323 !important;
   }
 
   .md\:focus\:to-navydark:focus {
@@ -21335,8 +21344,8 @@ button {
 
   .md\:border-secondary {
     --border-opacity: 1 !important;
-    border-color: #0b2b48 !important;
-    border-color: rgba(11, 43, 72, var(--border-opacity)) !important;
+    border-color: #071323 !important;
+    border-color: rgba(7, 19, 35, var(--border-opacity)) !important;
   }
 
   .md\:border-navydark {
@@ -21389,8 +21398,8 @@ button {
 
   .md\:hover\:border-secondary:hover {
     --border-opacity: 1 !important;
-    border-color: #0b2b48 !important;
-    border-color: rgba(11, 43, 72, var(--border-opacity)) !important;
+    border-color: #071323 !important;
+    border-color: rgba(7, 19, 35, var(--border-opacity)) !important;
   }
 
   .md\:hover\:border-navydark:hover {
@@ -21443,8 +21452,8 @@ button {
 
   .md\:focus\:border-secondary:focus {
     --border-opacity: 1 !important;
-    border-color: #0b2b48 !important;
-    border-color: rgba(11, 43, 72, var(--border-opacity)) !important;
+    border-color: #071323 !important;
+    border-color: rgba(7, 19, 35, var(--border-opacity)) !important;
   }
 
   .md\:focus\:border-navydark:focus {
@@ -23762,20 +23771,20 @@ button {
 
   .md\:placeholder-secondary::-moz-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
   }
 
   .md\:placeholder-secondary:-ms-input-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
   }
 
   .md\:placeholder-secondary::placeholder {
     --placeholder-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
   }
 
   .md\:placeholder-navydark::-moz-placeholder {
@@ -23924,20 +23933,20 @@ button {
 
   .md\:focus\:placeholder-secondary:focus::-moz-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
   }
 
   .md\:focus\:placeholder-secondary:focus:-ms-input-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
   }
 
   .md\:focus\:placeholder-secondary:focus::placeholder {
     --placeholder-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
   }
 
   .md\:focus\:placeholder-navydark:focus::-moz-placeholder {
@@ -24469,8 +24478,8 @@ button {
 
   .md\:text-secondary {
     --text-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--text-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--text-opacity)) !important;
   }
 
   .md\:text-navydark {
@@ -24523,8 +24532,8 @@ button {
 
   .md\:hover\:text-secondary:hover {
     --text-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--text-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--text-opacity)) !important;
   }
 
   .md\:hover\:text-navydark:hover {
@@ -24577,8 +24586,8 @@ button {
 
   .md\:focus\:text-secondary:focus {
     --text-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--text-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--text-opacity)) !important;
   }
 
   .md\:focus\:text-navydark:focus {
@@ -24631,8 +24640,8 @@ button {
 
   .group:hover .md\:group-hover\:text-secondary {
     --text-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--text-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--text-opacity)) !important;
   }
 
   .group:hover .md\:group-hover\:text-navydark {
@@ -28903,8 +28912,8 @@ button {
 
   .lg\:divide-secondary > :not(template) ~ :not(template) {
     --divide-opacity: 1 !important;
-    border-color: #0b2b48 !important;
-    border-color: rgba(11, 43, 72, var(--divide-opacity)) !important;
+    border-color: #071323 !important;
+    border-color: rgba(7, 19, 35, var(--divide-opacity)) !important;
   }
 
   .lg\:divide-navydark > :not(template) ~ :not(template) {
@@ -29078,8 +29087,8 @@ button {
 
   .lg\:bg-secondary {
     --bg-opacity: 1 !important;
-    background-color: #0b2b48 !important;
-    background-color: rgba(11, 43, 72, var(--bg-opacity)) !important;
+    background-color: #071323 !important;
+    background-color: rgba(7, 19, 35, var(--bg-opacity)) !important;
   }
 
   .lg\:bg-navydark {
@@ -29132,8 +29141,8 @@ button {
 
   .lg\:hover\:bg-secondary:hover {
     --bg-opacity: 1 !important;
-    background-color: #0b2b48 !important;
-    background-color: rgba(11, 43, 72, var(--bg-opacity)) !important;
+    background-color: #071323 !important;
+    background-color: rgba(7, 19, 35, var(--bg-opacity)) !important;
   }
 
   .lg\:hover\:bg-navydark:hover {
@@ -29186,8 +29195,8 @@ button {
 
   .lg\:focus\:bg-secondary:focus {
     --bg-opacity: 1 !important;
-    background-color: #0b2b48 !important;
-    background-color: rgba(11, 43, 72, var(--bg-opacity)) !important;
+    background-color: #071323 !important;
+    background-color: rgba(7, 19, 35, var(--bg-opacity)) !important;
   }
 
   .lg\:focus\:bg-navydark:focus {
@@ -29274,8 +29283,8 @@ button {
   }
 
   .lg\:from-secondary {
-    --gradient-from-color: #0b2b48 !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+    --gradient-from-color: #071323 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
   }
 
   .lg\:from-navydark {
@@ -29319,8 +29328,8 @@ button {
   }
 
   .lg\:via-secondary {
-    --gradient-via-color: #0b2b48 !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+    --gradient-via-color: #071323 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
   }
 
   .lg\:via-navydark {
@@ -29363,7 +29372,7 @@ button {
   }
 
   .lg\:to-secondary {
-    --gradient-to-color: #0b2b48 !important;
+    --gradient-to-color: #071323 !important;
   }
 
   .lg\:to-navydark {
@@ -29400,8 +29409,8 @@ button {
   }
 
   .lg\:hover\:from-secondary:hover {
-    --gradient-from-color: #0b2b48 !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+    --gradient-from-color: #071323 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
   }
 
   .lg\:hover\:from-navydark:hover {
@@ -29445,8 +29454,8 @@ button {
   }
 
   .lg\:hover\:via-secondary:hover {
-    --gradient-via-color: #0b2b48 !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+    --gradient-via-color: #071323 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
   }
 
   .lg\:hover\:via-navydark:hover {
@@ -29489,7 +29498,7 @@ button {
   }
 
   .lg\:hover\:to-secondary:hover {
-    --gradient-to-color: #0b2b48 !important;
+    --gradient-to-color: #071323 !important;
   }
 
   .lg\:hover\:to-navydark:hover {
@@ -29526,8 +29535,8 @@ button {
   }
 
   .lg\:focus\:from-secondary:focus {
-    --gradient-from-color: #0b2b48 !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+    --gradient-from-color: #071323 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
   }
 
   .lg\:focus\:from-navydark:focus {
@@ -29571,8 +29580,8 @@ button {
   }
 
   .lg\:focus\:via-secondary:focus {
-    --gradient-via-color: #0b2b48 !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+    --gradient-via-color: #071323 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
   }
 
   .lg\:focus\:via-navydark:focus {
@@ -29615,7 +29624,7 @@ button {
   }
 
   .lg\:focus\:to-secondary:focus {
-    --gradient-to-color: #0b2b48 !important;
+    --gradient-to-color: #071323 !important;
   }
 
   .lg\:focus\:to-navydark:focus {
@@ -29794,8 +29803,8 @@ button {
 
   .lg\:border-secondary {
     --border-opacity: 1 !important;
-    border-color: #0b2b48 !important;
-    border-color: rgba(11, 43, 72, var(--border-opacity)) !important;
+    border-color: #071323 !important;
+    border-color: rgba(7, 19, 35, var(--border-opacity)) !important;
   }
 
   .lg\:border-navydark {
@@ -29848,8 +29857,8 @@ button {
 
   .lg\:hover\:border-secondary:hover {
     --border-opacity: 1 !important;
-    border-color: #0b2b48 !important;
-    border-color: rgba(11, 43, 72, var(--border-opacity)) !important;
+    border-color: #071323 !important;
+    border-color: rgba(7, 19, 35, var(--border-opacity)) !important;
   }
 
   .lg\:hover\:border-navydark:hover {
@@ -29902,8 +29911,8 @@ button {
 
   .lg\:focus\:border-secondary:focus {
     --border-opacity: 1 !important;
-    border-color: #0b2b48 !important;
-    border-color: rgba(11, 43, 72, var(--border-opacity)) !important;
+    border-color: #071323 !important;
+    border-color: rgba(7, 19, 35, var(--border-opacity)) !important;
   }
 
   .lg\:focus\:border-navydark:focus {
@@ -32221,20 +32230,20 @@ button {
 
   .lg\:placeholder-secondary::-moz-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
   }
 
   .lg\:placeholder-secondary:-ms-input-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
   }
 
   .lg\:placeholder-secondary::placeholder {
     --placeholder-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
   }
 
   .lg\:placeholder-navydark::-moz-placeholder {
@@ -32383,20 +32392,20 @@ button {
 
   .lg\:focus\:placeholder-secondary:focus::-moz-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
   }
 
   .lg\:focus\:placeholder-secondary:focus:-ms-input-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
   }
 
   .lg\:focus\:placeholder-secondary:focus::placeholder {
     --placeholder-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
   }
 
   .lg\:focus\:placeholder-navydark:focus::-moz-placeholder {
@@ -32928,8 +32937,8 @@ button {
 
   .lg\:text-secondary {
     --text-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--text-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--text-opacity)) !important;
   }
 
   .lg\:text-navydark {
@@ -32982,8 +32991,8 @@ button {
 
   .lg\:hover\:text-secondary:hover {
     --text-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--text-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--text-opacity)) !important;
   }
 
   .lg\:hover\:text-navydark:hover {
@@ -33036,8 +33045,8 @@ button {
 
   .lg\:focus\:text-secondary:focus {
     --text-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--text-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--text-opacity)) !important;
   }
 
   .lg\:focus\:text-navydark:focus {
@@ -33090,8 +33099,8 @@ button {
 
   .group:hover .lg\:group-hover\:text-secondary {
     --text-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--text-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--text-opacity)) !important;
   }
 
   .group:hover .lg\:group-hover\:text-navydark {
@@ -37362,8 +37371,8 @@ button {
 
   .xl\:divide-secondary > :not(template) ~ :not(template) {
     --divide-opacity: 1 !important;
-    border-color: #0b2b48 !important;
-    border-color: rgba(11, 43, 72, var(--divide-opacity)) !important;
+    border-color: #071323 !important;
+    border-color: rgba(7, 19, 35, var(--divide-opacity)) !important;
   }
 
   .xl\:divide-navydark > :not(template) ~ :not(template) {
@@ -37537,8 +37546,8 @@ button {
 
   .xl\:bg-secondary {
     --bg-opacity: 1 !important;
-    background-color: #0b2b48 !important;
-    background-color: rgba(11, 43, 72, var(--bg-opacity)) !important;
+    background-color: #071323 !important;
+    background-color: rgba(7, 19, 35, var(--bg-opacity)) !important;
   }
 
   .xl\:bg-navydark {
@@ -37591,8 +37600,8 @@ button {
 
   .xl\:hover\:bg-secondary:hover {
     --bg-opacity: 1 !important;
-    background-color: #0b2b48 !important;
-    background-color: rgba(11, 43, 72, var(--bg-opacity)) !important;
+    background-color: #071323 !important;
+    background-color: rgba(7, 19, 35, var(--bg-opacity)) !important;
   }
 
   .xl\:hover\:bg-navydark:hover {
@@ -37645,8 +37654,8 @@ button {
 
   .xl\:focus\:bg-secondary:focus {
     --bg-opacity: 1 !important;
-    background-color: #0b2b48 !important;
-    background-color: rgba(11, 43, 72, var(--bg-opacity)) !important;
+    background-color: #071323 !important;
+    background-color: rgba(7, 19, 35, var(--bg-opacity)) !important;
   }
 
   .xl\:focus\:bg-navydark:focus {
@@ -37733,8 +37742,8 @@ button {
   }
 
   .xl\:from-secondary {
-    --gradient-from-color: #0b2b48 !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+    --gradient-from-color: #071323 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
   }
 
   .xl\:from-navydark {
@@ -37778,8 +37787,8 @@ button {
   }
 
   .xl\:via-secondary {
-    --gradient-via-color: #0b2b48 !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+    --gradient-via-color: #071323 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
   }
 
   .xl\:via-navydark {
@@ -37822,7 +37831,7 @@ button {
   }
 
   .xl\:to-secondary {
-    --gradient-to-color: #0b2b48 !important;
+    --gradient-to-color: #071323 !important;
   }
 
   .xl\:to-navydark {
@@ -37859,8 +37868,8 @@ button {
   }
 
   .xl\:hover\:from-secondary:hover {
-    --gradient-from-color: #0b2b48 !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+    --gradient-from-color: #071323 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
   }
 
   .xl\:hover\:from-navydark:hover {
@@ -37904,8 +37913,8 @@ button {
   }
 
   .xl\:hover\:via-secondary:hover {
-    --gradient-via-color: #0b2b48 !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+    --gradient-via-color: #071323 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
   }
 
   .xl\:hover\:via-navydark:hover {
@@ -37948,7 +37957,7 @@ button {
   }
 
   .xl\:hover\:to-secondary:hover {
-    --gradient-to-color: #0b2b48 !important;
+    --gradient-to-color: #071323 !important;
   }
 
   .xl\:hover\:to-navydark:hover {
@@ -37985,8 +37994,8 @@ button {
   }
 
   .xl\:focus\:from-secondary:focus {
-    --gradient-from-color: #0b2b48 !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+    --gradient-from-color: #071323 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
   }
 
   .xl\:focus\:from-navydark:focus {
@@ -38030,8 +38039,8 @@ button {
   }
 
   .xl\:focus\:via-secondary:focus {
-    --gradient-via-color: #0b2b48 !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(11, 43, 72, 0)) !important;
+    --gradient-via-color: #071323 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(7, 19, 35, 0)) !important;
   }
 
   .xl\:focus\:via-navydark:focus {
@@ -38074,7 +38083,7 @@ button {
   }
 
   .xl\:focus\:to-secondary:focus {
-    --gradient-to-color: #0b2b48 !important;
+    --gradient-to-color: #071323 !important;
   }
 
   .xl\:focus\:to-navydark:focus {
@@ -38253,8 +38262,8 @@ button {
 
   .xl\:border-secondary {
     --border-opacity: 1 !important;
-    border-color: #0b2b48 !important;
-    border-color: rgba(11, 43, 72, var(--border-opacity)) !important;
+    border-color: #071323 !important;
+    border-color: rgba(7, 19, 35, var(--border-opacity)) !important;
   }
 
   .xl\:border-navydark {
@@ -38307,8 +38316,8 @@ button {
 
   .xl\:hover\:border-secondary:hover {
     --border-opacity: 1 !important;
-    border-color: #0b2b48 !important;
-    border-color: rgba(11, 43, 72, var(--border-opacity)) !important;
+    border-color: #071323 !important;
+    border-color: rgba(7, 19, 35, var(--border-opacity)) !important;
   }
 
   .xl\:hover\:border-navydark:hover {
@@ -38361,8 +38370,8 @@ button {
 
   .xl\:focus\:border-secondary:focus {
     --border-opacity: 1 !important;
-    border-color: #0b2b48 !important;
-    border-color: rgba(11, 43, 72, var(--border-opacity)) !important;
+    border-color: #071323 !important;
+    border-color: rgba(7, 19, 35, var(--border-opacity)) !important;
   }
 
   .xl\:focus\:border-navydark:focus {
@@ -40680,20 +40689,20 @@ button {
 
   .xl\:placeholder-secondary::-moz-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
   }
 
   .xl\:placeholder-secondary:-ms-input-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
   }
 
   .xl\:placeholder-secondary::placeholder {
     --placeholder-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
   }
 
   .xl\:placeholder-navydark::-moz-placeholder {
@@ -40842,20 +40851,20 @@ button {
 
   .xl\:focus\:placeholder-secondary:focus::-moz-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
   }
 
   .xl\:focus\:placeholder-secondary:focus:-ms-input-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
   }
 
   .xl\:focus\:placeholder-secondary:focus::placeholder {
     --placeholder-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--placeholder-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--placeholder-opacity)) !important;
   }
 
   .xl\:focus\:placeholder-navydark:focus::-moz-placeholder {
@@ -41387,8 +41396,8 @@ button {
 
   .xl\:text-secondary {
     --text-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--text-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--text-opacity)) !important;
   }
 
   .xl\:text-navydark {
@@ -41441,8 +41450,8 @@ button {
 
   .xl\:hover\:text-secondary:hover {
     --text-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--text-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--text-opacity)) !important;
   }
 
   .xl\:hover\:text-navydark:hover {
@@ -41495,8 +41504,8 @@ button {
 
   .xl\:focus\:text-secondary:focus {
     --text-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--text-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--text-opacity)) !important;
   }
 
   .xl\:focus\:text-navydark:focus {
@@ -41549,8 +41558,8 @@ button {
 
   .group:hover .xl\:group-hover\:text-secondary {
     --text-opacity: 1 !important;
-    color: #0b2b48 !important;
-    color: rgba(11, 43, 72, var(--text-opacity)) !important;
+    color: #071323 !important;
+    color: rgba(7, 19, 35, var(--text-opacity)) !important;
   }
 
   .group:hover .xl\:group-hover\:text-navydark {

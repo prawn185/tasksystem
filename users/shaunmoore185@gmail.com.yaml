@@ -7,3 +7,16 @@ preferences:
   collections:
     pages:
       after_save: continue_editing
+      columns:
+        - title
+        - slug
+        - subheading
+        - template
+        - page_builder
+    todo_list:
+      columns:
+        - slug
+        - title
+        - user
+        - description
+        - status

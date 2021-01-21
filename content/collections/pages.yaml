@@ -1,61 +1,11 @@
 title: Pages
 sites:
   - default
-  - ie
-  - us
-  - ca
-  - au
-  - nz
-  - mx
-  - es
-revisions: true
-route: '{parent_uri}/{slug}'
-structure:
-  root: true
-  tree:
-    default:
-      -
-        entry: home
-      -
-        entry: 094b9710-fecb-4541-bbd1-2456095c79f1
-      -
-        entry: 576aed14-b9ec-44bc-8b57-73c4e70655d2
-      -
-        entry: 83655869-cebc-444b-8bc3-c0cdc9813dda
-      -
-        entry: 595c8d06-58ed-4368-ad0b-5710526cbeee
-      -
-        entry: ef9f6266-f785-401a-b628-f6341291a191
-    ie:
-      -
-        entry: 37e621e8-0238-4d5b-a189-1b1877c50980
-      -
-        entry: 9bf81f35-34a1-4c34-ba49-fd8e78c8a671
-    us:
-      -
-        entry: e1bea80b-e592-4838-af11-7cd1eab4a55e
-      -
-        entry: a86e8ca1-9bc0-4176-abf8-59204b53f2f4
-      -
-        entry: ee7046b9-4019-4b18-abbb-89ee645bbbe6
-      -
-        entry: 30832a03-ca35-4a1e-8f7a-b9375eeca388
-    ca:
-      -
-        entry: cf3af9a7-9b5b-4216-8944-92f6dad8c844
-    au:
-      -
-        entry: 2c489261-142d-411f-bc46-39c61f7e2f36
-    nz:
-      -
-        entry: 311c9345-4a4a-4c8d-b647-9a0ff4273375
-    mx:
-      -
-        entry: 3c6b623c-93ea-4dc8-95b8-37aea777459e
-      -
-        entry: 3fcc0262-46f8-4e20-a1a6-0481f11541ba
-      -
-        entry: f4c1012d-0650-401d-98d6-5de1c5407e8c
-    es:
-      -
-        entry: 2879407a-f14a-4322-9832-1f54f42f7062
+template: default
+layout: layout
+revisions: false
+route: '/{parent_uri}/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private

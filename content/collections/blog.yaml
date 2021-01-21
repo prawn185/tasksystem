@@ -1,7 +1,0 @@
-title: Blog
-sites:
-  - default
-revisions: false
-date_behavior:
-  past: public
-  future: private

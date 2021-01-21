@@ -11,7 +11,7 @@ module.exports = {
     theme: {
         colors: {
             brand: "#00b5fa",
-            secondary: "#0b2b48",
+            secondary: "#071323",
             //     light: "#334f74",
             //     DEFAULT: "#0b2b48",
             //     dark: "#020810",

@@ -15,6 +15,16 @@ fields:
           fields:
             -
               import: content_block
+        hero_content:
+          display: 'Hero Content'
+          fields:
+            -
+              import: hero_content
+        text_image_left:
+          display: 'Text Image Left'
+          fields:
+            -
+              import: text_image_left
       display: 'Page Builder'
       type: replicator
       icon: replicator

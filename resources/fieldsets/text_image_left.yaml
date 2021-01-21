@@ -1,0 +1,54 @@
+title: 'Text image Left'
+fields:
+  -
+    handle: image
+    field:
+      mode: grid
+      restrict: false
+      allow_uploads: true
+      max_files: 1
+      display: Image
+      type: assets
+      icon: assets
+      listable: hidden
+  -
+    handle: text
+    field:
+      always_show_set_button: true
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
+        - anchor
+        - image
+        - table
+      save_html: false
+      toolbar_mode: fixed
+      link_noopener: false
+      link_noreferrer: false
+      target_blank: false
+      reading_time: false
+      fullscreen: true
+      allow_source: true
+      display: Text
+      type: bard
+      icon: bard
+      listable: hidden
+      sets:
+        new_set:
+          display: 'New Set'
+          fields:
+            -
+              handle: title_of_block
+              field:
+                input_type: text
+                antlers: false
+                display: 'Title of Block'
+                type: text
+                icon: text
+                listable: hidden
