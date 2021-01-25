@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fd8cde653888cbb9b9ba52fa182c2186",
+    "content-hash": "28fa4452f58fb7c5bd95c253a02e9122",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3470,16 +3470,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v3.0.39",
+            "version": "v3.0.40",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "6e42e2540d35dfb70050e9a57e1f8fdae8d6aa49"
+                "reference": "7fc63c12b9fdcf0cb33339320d04596fb6f4e6df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/6e42e2540d35dfb70050e9a57e1f8fdae8d6aa49",
-                "reference": "6e42e2540d35dfb70050e9a57e1f8fdae8d6aa49",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/7fc63c12b9fdcf0cb33339320d04596fb6f4e6df",
+                "reference": "7fc63c12b9fdcf0cb33339320d04596fb6f4e6df",
                 "shasum": ""
             },
             "require": {
@@ -3546,7 +3546,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v3.0.39"
+                "source": "https://github.com/statamic/cms/tree/v3.0.40"
             },
             "funding": [
                 {
@@ -3554,7 +3554,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-01-19T20:10:23+00:00"
+            "time": "2021-01-21T16:37:25+00:00"
         },
         {
             "name": "statamic/stringy",
@@ -3623,6 +3623,67 @@
                 "source": "https://github.com/statamic/Stringy"
             },
             "time": "2020-12-09T23:24:32+00:00"
+        },
+        {
+            "name": "stripe/stripe-php",
+            "version": "v7.69.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stripe/stripe-php.git",
+                "reference": "6716cbc4ebf8cba7d45374a059c7c6e5bf53277d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/6716cbc4ebf8cba7d45374a059c7c6e5bf53277d",
+                "reference": "6716cbc4ebf8cba7d45374a059c7c6e5bf53277d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "2.17.1",
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^5.7",
+                "squizlabs/php_codesniffer": "^3.3",
+                "symfony/process": "~3.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Stripe\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stripe and contributors",
+                    "homepage": "https://github.com/stripe/stripe-php/contributors"
+                }
+            ],
+            "description": "Stripe PHP Library",
+            "homepage": "https://stripe.com/",
+            "keywords": [
+                "api",
+                "payment processing",
+                "stripe"
+            ],
+            "support": {
+                "issues": "https://github.com/stripe/stripe-php/issues",
+                "source": "https://github.com/stripe/stripe-php/tree/v7.69.0"
+            },
+            "time": "2021-01-22T03:21:13+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -6475,12 +6536,12 @@
             "version": "1.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/assert.git",
+                "url": "https://github.com/webmozarts/assert.git",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "shasum": ""
             },
@@ -6518,8 +6579,8 @@
                 "validate"
             ],
             "support": {
-                "issues": "https://github.com/webmozart/assert/issues",
-                "source": "https://github.com/webmozart/assert/tree/master"
+                "issues": "https://github.com/webmozarts/assert/issues",
+                "source": "https://github.com/webmozarts/assert/tree/1.9.1"
             },
             "time": "2020-07-08T17:02:28+00:00"
         },

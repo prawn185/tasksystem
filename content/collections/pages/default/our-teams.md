@@ -29,7 +29,7 @@ page_builder:
     enabled: true
     image: Screenshot-2020-11-11-at-12.45.16.png
   -
-    color: '#7C7D86'
+    color: '#E7EAEF'
     replicator:
       -
         image: Group.svg
@@ -39,7 +39,7 @@ page_builder:
             content:
               -
                 type: text
-                text: '123'
+                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
         type: feature_item
         enabled: true
       -
@@ -50,7 +50,7 @@ page_builder:
             content:
               -
                 type: text
-                text: ijyfiohbjknmfdsg
+                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
         type: feature_item
         enabled: true
       -
@@ -61,10 +61,7 @@ page_builder:
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: bold
-                text: dsfrheasgerg
+                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
         type: feature_item
         enabled: true
       -
@@ -75,13 +72,14 @@ page_builder:
             content:
               -
                 type: text
-                text: dasdasdasdasdasd
+                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
         type: feature_item
         enabled: true
     type: feature_set
     enabled: true
+    text: 'Our Values'
 updated_by: cd6e0113-0581-463d-9841-5e46ed105875
-updated_at: 1611240828
+updated_at: 1611575267
 blueprint: internal_page
 subheading: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
 template: default

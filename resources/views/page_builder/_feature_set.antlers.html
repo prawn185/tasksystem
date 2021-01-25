@@ -1,7 +1,12 @@
-<div class="flex items-center justify-between py-20 text-secondary px-20" style="background-color: {{color}}">
-{{ replicator }}
 
-    {{ partial src="sets/{type}" }}
+<div class="pb-10 text-secondary px-20" style="background-color: {{ color }}">
+    <h3 class="text-center py-10 text-3xl font-bold">{{ text }}</h3>
+    <div class="flex items-center justify-between flex-col lg:flex-row ">
+            {{ replicator }}
 
-{{ /replicator }}
+            {{ partial src="sets/{type}" }}
+
+            {{ /replicator }}
+    </div>
+
 </div>

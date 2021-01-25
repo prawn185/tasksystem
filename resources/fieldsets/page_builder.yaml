@@ -30,6 +30,11 @@ fields:
           fields:
             -
               import: feature_set
+        add_to_cart:
+          display: 'Add to Cart'
+          fields:
+            -
+              import: add_to_cart
       display: 'Page Builder'
       type: replicator
       icon: replicator

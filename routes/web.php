@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\GeoIpController;
+use App\Http\Controllers\StripeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,4 +19,8 @@ use Illuminate\Support\Facades\Route;
 //    'title' => 'Example'
 // ]);
 
-Route::get('/', \App\Http\Controllers\GeoIpController::class);
+Route::get('/', GeoIpController::class);
+
+
+Route::post('/payment', [StripeController::class, 'Payment']);
+Route::get('/checkout', [StripeController::class, 'Checkout']);

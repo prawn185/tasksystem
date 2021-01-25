@@ -7,6 +7,7 @@ module.exports = {
             './content/**/*.md'
         ]
     },
+    darkMode: 'class',
     important: true,
     theme: {
         colors: {
@@ -25,6 +26,7 @@ module.exports = {
             },
             green: "#33b55f",
             sea: "#3b87a4",
+            whitedark: "#040c17",
         },
         fontFamily: {
             'primary': ['Open Sans','Helvetica','Arial','sans-serif'],
@@ -42,6 +44,7 @@ module.exports = {
         textColor: ['responsive', 'hover', 'focus', 'group-hover'],
         transform: ['responsive', 'hover', 'focus', 'group-hover'],
         rotate: ['responsive', 'hover', 'focus', 'group-hover'],
+
     },
     plugins: [],
 }

@@ -1,16 +1,16 @@
 
 <section class=" grid md:grid-cols-12 bg-secondary pt-20 pb-40 z-0 relative">
     <div class="container md:col-start-3 md:col-span-8">
-        <div class="text-center py-5 leading-loose w-1/2 mx-auto">
+        <div class="text-center py-5 leading-loose lg:w-1/2 mx-auto px-6">
             <h1 class="text-5xl font-bold">{{ title }}</h1>
             {{ subheading }}
         </div>
     </div>
 </section>
 
-<section class="container mx-auto -mt-20 z-10 relative bg-white rounded-lg shadow-lg top-4">
+<section class="container mx-auto -mt-20 z-10 relative bg-white dark:bg-whitedark dark:text-white rounded-lg shadow-lg top-4">
     <div class="my-1 w-full">
-        <main class="outer-grid">
+        <main class="outer-grid lg:py-20 py-10">
             {{ page_builder scope="block" }}
                 {{ partial src="page_builder/{type}" }}
             {{ /page_builder }}
