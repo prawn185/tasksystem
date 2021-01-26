@@ -1,15 +1,59 @@
 title: 'Text image Left'
 fields:
   -
-    handle: image
+    handle: percentage
     field:
-      mode: grid
-      restrict: false
-      allow_uploads: true
-      max_files: 1
-      display: Image
-      type: assets
-      icon: assets
+      options:
+        w-1/4: 25%
+        w-1/2: 50%
+        w-3/4: 75%
+      display: Percentage
+      type: button_group
+      icon: button_group
+      width: 50
+      listable: hidden
+  -
+    handle: color
+    field:
+      swatches:
+        - '#00b5fa'
+        - '#071323'
+        - '#07111f'
+        - '#e8e8e8'
+        - '#3b87a4'
+        - '#33b55f'
+      theme: classic
+      lock_opacity: false
+      default_color_mode: HEXA
+      color_modes:
+        - HEXA
+      display: Color
+      type: color
+      icon: color
+      width: 25
+      listable: hidden
+  -
+    handle: alignment
+    field:
+      options:
+        flex-row: Left
+        flex-row-reverse: Right
+      display: Alignment
+      type: button_group
+      icon: button_group
+      width: 25
+      listable: hidden
+  -
+    handle: padding_top
+    field:
+      step: 1
+      min: 1
+      max: 20
+      default: 10
+      display: 'Padding Top'
+      type: range
+      icon: range
+      width: 50
       listable: hidden
   -
     handle: text
@@ -52,3 +96,18 @@ fields:
                 type: text
                 icon: text
                 listable: hidden
+      width: 75
+      localizable: true
+  -
+    handle: image
+    field:
+      mode: grid
+      restrict: false
+      allow_uploads: true
+      max_files: 1
+      display: Image
+      type: assets
+      icon: assets
+      listable: hidden
+      width: 25
+      localizable: true

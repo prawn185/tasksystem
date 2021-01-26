@@ -10,7 +10,7 @@ page_builder:
         content:
           -
             type: text
-            text: Marketing
+            text: 'Marketing 101'
       -
         type: heading
         attrs:
@@ -27,7 +27,23 @@ page_builder:
             text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
     type: text_image_left
     enabled: true
-    image: Screenshot-2020-11-11-at-12.45.16.png
+    image: 8k-fullultrahd-hatterkep-wallpaper-mosaicon-3d.jpeg
+    percentage: w-1/2
+    color: '#3B87A4'
+    padding_top: '20'
+<script>
+    function imageResize(){
+        this.onload=null;
+        var imgWidth = this.getBoundingClientRect().width;
+        this.parentNode.querySelectorAll('source')
+            .forEach(function (source) {
+                source.sizes=Math.ceil(imgWidth/window.innerWidth*100)+'vw';
+            });
+    }
+</script>
+
+    alignment: flex-row
+    image_height: '20'
   -
     color: '#E7EAEF'
     replicator:
@@ -79,7 +95,7 @@ page_builder:
     enabled: true
     text: 'Our Values'
 updated_by: cd6e0113-0581-463d-9841-5e46ed105875
-updated_at: 1611575267
+updated_at: 1611656124
 blueprint: internal_page
 subheading: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
 template: default

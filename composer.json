@@ -10,10 +10,11 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
-        "statamic/cms": "3.0.40",
-        "stripe/stripe-php": "^7.69"
+        "spatie/statamic-responsive-images": "^2.0",
+        "statamic/cms": "3.0.40"
     },
     "require-dev": {
+        "roave/security-advisories": "dev-master",
         "barryvdh/laravel-debugbar": "^3.5",
         "facade/ignition": "^2.3.6",
         "fzaninotto/faker": "^1.9.1",
