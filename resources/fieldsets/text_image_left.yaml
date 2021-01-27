@@ -1,4 +1,4 @@
-title: 'Text image Left'
+title: 'Text image'
 fields:
   -
     handle: percentage
@@ -7,11 +7,12 @@ fields:
         w-1/4: 25%
         w-1/2: 50%
         w-3/4: 75%
-      display: Percentage
+      display: 'Text Percentage'
       type: button_group
       icon: button_group
       width: 50
       listable: hidden
+      instructions: 'Percentage the text will take'
   -
     handle: color
     field:
@@ -48,7 +49,7 @@ fields:
     field:
       step: 1
       min: 1
-      max: 20
+      max: 12
       default: 10
       display: 'Padding Top'
       type: range

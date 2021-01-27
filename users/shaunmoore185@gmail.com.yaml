@@ -23,3 +23,5 @@ preferences:
   assets:
     assets:
       mode: grid
+    admin:
+      mode: grid

@@ -1,23 +1,7 @@
 tree:
   -
-    title: Retail
-    children:
-      -
-        title: 'Vape Store'
-      -
-        title: Clothing
+    entry: 04567c33-d450-429a-a4be-a64777b3d429
   -
-    title: Hospitality
-    children:
-      -
-        title: '{{ title }}'
-      -
-        title: '{{ title }}'
-      -
-        title: '{{ title }}'
+    entry: 771e4962-3b4d-463a-8106-8c6bb06bb547
   -
-    title: About
-  -
-    title: Resources
-  -
-    title: Contact
+    entry: e5dd1e7d-2a72-49b0-8383-69d4b52d0f97

@@ -1,12 +1,12 @@
 
-<div class="flex items-start justify-between flex-col lg:flex-row lg:px-20 px-10 {{alignment}} lg:pt-{{ padding_top }} pb-10" style="background-color: {{ color }}">
-    <div class="lg:pr-6 text-secondary image-left-textbox align-top inline-block lg:{{ percentage }} lg:pr-20">
+<div class="flex items-start justify-between flex-col rounded-t-lg lg:flex-row lg:px-20 px-10 {{alignment}} lg:pt-{{ padding_top }} pb-10" style="background-color: {{ color }}">
+    <div class="lg:pr-6 text-secondary image-left-textbox align-top inline-block lg:{{ percentage }} lg:pr-20 flex-grow">
 
         {{ text }}
           {{ text }}
         {{ /text }}
     </div>
-    <div class="block lg:m-0">
+    <div class="flex-grow">
         {{ responsive:image ratio="16/9" alt="{title}" }}
     </div>
 

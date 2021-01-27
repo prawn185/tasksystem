@@ -7,26 +7,17 @@
         </div>
         <div class="block lg:hidden">
             <button class="flex items-center px-3 py-6 border rounded  hover:text-white hover:border-white">
-                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
             </button>
         </div>
         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-            <div class="text-sm  lg:flex-grow">
-
-            </div>
             <div class="text-white">
-                <a href="#" class="block pt-4 lg:inline-block lg:mt-0 text-white hover:text-brand mr-10">
-                    About Us
+                {{ nav:main }}
+                <a href="{{ url }}" class="block pt-4 lg:inline-block lg:mt-0 text-white hover:text-brand mr-10 {{ is_current ? "current" : "" }}">
+                    {{ title }}
                 </a>
-                <a href="#" class="block pt-4 lg:inline-block lg:mt-0 text-white hover:text-brand mr-10">
-                    Our Teams
-                </a>
-                <a href="#" class="current block pt-4 lg:inline-block lg:mt-0 text-white hover:text-brand mr-10">
-                    Jobs
-                </a>
-                <a href="#" class="block pt-4 lg:inline-block lg:mt-0 text-white hover:text-brand mr-10">
-                    Contact
-                </a>
+                {{ /nav:main }}
             </div>
         </div>
     </nav>
