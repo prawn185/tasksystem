@@ -11,13 +11,8 @@ Statamic.booting(() => {
 });
 
 */
-// Statamic.$hooks.on('entry.saving', (resolve, reject, payload) => {
-//     console.log(payload.values.sites);
-//     resolve();
-// });
-//
-// import SiteID from './components/fieldtypes/SiteIDRelationshipItem.vue';
-//
-// Statamic.booting(() => {
-//     Statamic.$components.register('site_i_d-fieldtype', SiteID);
-// });
+import ColorPicker from './components/fieldtypes/ColorPicker.vue';
+
+Statamic.booting(() => {
+    Statamic.$components.register('color_picker-fieldtype', ColorPicker);
+});

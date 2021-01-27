@@ -11,7 +11,7 @@ fields:
       type: assets
       icon: assets
       listable: hidden
-      width: 50
+      width: 25
   -
     handle: text
     field:
@@ -40,4 +40,4 @@ fields:
       type: bard
       icon: bard
       listable: hidden
-      width: 50
+      width: 75

@@ -31,17 +31,6 @@ page_builder:
     percentage: w-1/2
     color: '#3B87A4'
     padding_top: '20'
-<script>
-    function imageResize(){
-        this.onload=null;
-        var imgWidth = this.getBoundingClientRect().width;
-        this.parentNode.querySelectorAll('source')
-            .forEach(function (source) {
-                source.sizes=Math.ceil(imgWidth/window.innerWidth*100)+'vw';
-            });
-    }
-</script>
-
     alignment: flex-row
     image_height: '20'
   -
@@ -95,9 +84,11 @@ page_builder:
     enabled: true
     text: 'Our Values'
 updated_by: cd6e0113-0581-463d-9841-5e46ed105875
-updated_at: 1611656124
+updated_at: 1611672609
 blueprint: internal_page
 subheading: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
 template: default
+toggle_password: '#000000'
+color_picker: '#0606060'
 id: 04567c33-d450-429a-a4be-a64777b3d429
 ---
