@@ -5,7 +5,7 @@
         <button class="nav-toggle md:hidden ml-sm flex-shrink-0" @click="toggleMobileNav" v-else v-cloak aria-label="{{ __('Toggle Mobile Nav') }}">@svg('close')</button>
         <a href="{{ route('statamic.cp.index') }}" class="flex items-end">
             <div v-tooltip="version" class="hidden md:block flex-shrink-0 relative">
-                <img class="w-32" src="/assets/eposnowlogoblue.svg" alt="Epos Now logo">
+                <img class="w-24" src="https://www.buylocalnorfolk.org.uk/wp-content/uploads/2017/05/nu-image-logo2-1024x512.jpg" alt="Epos Now logo">
                 <span class="absolute font-bold text-4xs align-top right-0 top-0">Admin</span>
             </div>
         </a>

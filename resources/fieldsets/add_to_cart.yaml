@@ -1,0 +1,10 @@
+title: 'Add to Cart'
+fields:
+  -
+    handle: float
+    field:
+      display: Float
+      type: float
+      icon: float
+      instructions: 'Price of item'
+      listable: hidden

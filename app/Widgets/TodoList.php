@@ -17,7 +17,7 @@ class TodoList extends Widget
     public function html()
     {
 
-        $tasks = Collection::find('todo_list')
+        $tasks = Collection::find('tasks')
             ->queryEntries()
             ->where('user', Auth::id())
             ->get();

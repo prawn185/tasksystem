@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Route;
 // ]);
 
 Route::get('/', GeoIpController::class);
-
-
-Route::post('/payment', [StripeController::class, 'Payment']);
-Route::get('/checkout', [StripeController::class, 'Checkout']);
+//
+//
+//Route::post('/payment', [StripeController::class, 'Payment']);
+//Route::get('/checkout', [StripeController::class, 'Checkout']);

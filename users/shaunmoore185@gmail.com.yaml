@@ -1,27 +1,8 @@
 name: Shaun
 super: true
-avatar: Screenshot-2020-11-11-at-12.45.16.png
-id: cd6e0113-0581-463d-9841-5e46ed105875
-password_hash: $2y$10$klylw8AYekFwhvGwyrOR9Owsj.XGL4NG7Q20q/ke1pGo/KvI9c2ee
+id: 75911add-cc06-4631-a7b3-bd2ddd461e42
+password_hash: $2y$10$dNECIyLrMyowjS65BtgzQODGMn887vk7hHogPCbQPTmnYWz8/n0JW
 preferences:
   collections:
-    pages:
+    tasks:
       after_save: continue_editing
-      columns:
-        - title
-        - slug
-        - subheading
-        - template
-        - page_builder
-    todo_list:
-      columns:
-        - slug
-        - title
-        - user
-        - description
-        - status
-  assets:
-    assets:
-      mode: grid
-    admin:
-      mode: grid

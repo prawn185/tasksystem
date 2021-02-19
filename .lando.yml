@@ -1,4 +1,4 @@
-name: newpos
+name: tasksystem
 recipe: laravel
 config:
   php: '7.4'

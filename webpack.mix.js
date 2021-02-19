@@ -19,9 +19,6 @@ mix.postCss('resources/css/tailwind.css', 'public/css', [
     require('postcss-preset-env')({stage: 0})
 ])
 
-mix.js('resources/js/cp.js', 'public/vendor/app/js')
-    .sass('resources/sass/cp.scss', 'public/vendor/app/css');
-
 if (mix.inProduction()) {
    mix.version();
 }

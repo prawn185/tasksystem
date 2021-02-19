@@ -9,6 +9,6 @@ class GeoIpController extends Controller
     public function __invoke()
     {
         // TODO Make this actually use GeoIP
-        return redirect('/uk/');
+        return redirect('/uk');
     }
 }

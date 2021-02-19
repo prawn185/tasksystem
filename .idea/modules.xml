@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/statamic.iml" filepath="$PROJECT_DIR$/.idea/statamic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tasksystem.iml" filepath="$PROJECT_DIR$/.idea/tasksystem.iml" />
     </modules>
   </component>
 </project>

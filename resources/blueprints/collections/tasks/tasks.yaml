@@ -1,0 +1,72 @@
+title: tasks
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: content
+        field:
+          type: markdown
+          display: Description
+          localizable: true
+          listable: hidden
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+      -
+        handle: assigned_to
+        field:
+          max_items: 1
+          mode: select
+          display: 'Assigned To'
+          type: users
+          icon: users
+          listable: hidden
+      -
+        handle: select
+        field:
+          options:
+            Complete: Complete
+            'In Progress': 'In Progress'
+            'Not Started': 'Not Started'
+          multiple: false
+          max_items: 1
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          display: Select
+          type: select
+          icon: select
+          listable: hidden
+      -
+        handle: button_group
+        field:
+          options:
+            complete: complete
+          display: 'Button Group'
+          type: button_group
+          icon: button_group
+          listable: hidden
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required

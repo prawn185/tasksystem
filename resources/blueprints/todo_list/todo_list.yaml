@@ -1,0 +1,69 @@
+title: 'Todo List'
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field: task.title
+        config:
+          required: true
+      -
+        handle: user
+        field:
+          mode: select
+          display: User
+          type: users
+          icon: users
+          localizable: true
+          listable: hidden
+          max_items: 1
+      -
+        handle: description
+        field:
+          antlers: false
+          display: Description
+          type: textarea
+          icon: textarea
+          listable: hidden
+          localizable: true
+      -
+        handle: status
+        field:
+          options:
+            in_progress: 'In Progress'
+            complete: Complete
+            'Not Started': 'Not Started'
+            'Waiting Approval': 'Waiting Approval'
+          multiple: false
+          max_items: 1
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          display: Status
+          type: select
+          icon: select
+          instructions: 'Choose the status'
+          listable: hidden
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - todo_list
+          max_items: 1
+          listable: false
+          localizable: true

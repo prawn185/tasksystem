@@ -38,11 +38,11 @@ return [
     */
 
     'widgets' => [
-        'getting_started',
-        [
-            'type' => 'updater',
-            'width' => '100',
-        ],
+//        'getting_started',
+//        [
+//            'type' => 'updater',
+//            'width' => '100',
+//        ],
         'todo_list'
     ],
 
